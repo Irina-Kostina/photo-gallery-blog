@@ -11,20 +11,33 @@ export default function Featured() {
           </p>
         </div>
 
+        {/* All items in one grid */}
         <div className="featured-grid">
+          {/* Photo 1 */}
           <div className="featured-item">
             <div className="featured-image">
-              <img
-                src="/IMG_2747.JPG"
-                alt="Landscape"
-              />
+              <img src="/IMG_2747.JPG" alt="Lake Wanaka at sunset" />
             </div>
             <div className="featured-content">
-              <h3>Alpine Silence</h3>
-              <div className="featured-meta">Swiss Alps • March 2024</div>
+              <h3>Lake Sunset</h3>
+              <div className="featured-meta">Lake Wanaka • April 2025</div>
               <p className="featured-description">
-                Capturing the serene beauty of untouched mountain peaks at dawn. The interplay of light and shadow creates a dramatic narrative.
+                Capturing the serene beauty of Lake Wanaka on sunset. The interplay of light and shadow creates a dramatic narrative.
               </p>
+            </div>
+          </div>
+
+          {/* Photo 2 */}
+          <div className="featured-item">
+            <div className="featured-content">
+              <h3>Lake Sunset</h3>
+              <div className="featured-meta">Lake Wanaka • April 2025</div>
+              <p className="featured-description">
+                Capturing the serene beauty of Lake Wanaka on sunset. The interplay of light and shadow creates a dramatic narrative.
+              </p>
+            </div>
+            <div className="featured-image">
+              <img src="/IMG_2747.JPG" alt="Lake Wanaka at sunset" />
             </div>
           </div>
         </div>
