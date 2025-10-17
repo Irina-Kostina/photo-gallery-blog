@@ -9,6 +9,8 @@ import Journal from "./Journal"
 import Contact from "./Contact"
 import Footer from "./Footer"
 import { usePortfolioEffects } from "../hooks/usePortfolio"
+import { Route, Routes } from "react-router-dom"
+import JournalPage from "./JournalPage"
 
 export default function App() {
   usePortfolioEffects()
@@ -16,13 +18,24 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Featured />
-      <Gallery />
-      <About />
-      <Journal />
-      <Contact />
-      <Footer />
+      <Routes>
+        {/* ✅ Main homepage */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Featured />
+              <Gallery />
+              <About />
+              <Journal />
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
+        <Route path="/journal" element={<JournalPage />} />
+      </Routes>
     </>
   )
 }
