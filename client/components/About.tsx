@@ -25,7 +25,7 @@ export default function About() {
 
           <div className="about-image">
             <img
-              src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?w=600&h=800&fit=crop&crop=face"
+              src="/IMG_0950.JPG"
               alt="Photographer"
             />
           </div>

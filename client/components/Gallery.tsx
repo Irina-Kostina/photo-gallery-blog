@@ -14,17 +14,17 @@ export default function Gallery() {
 
       <div className="gallery-grid">
         <div className="gallery-item">
-          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=600&fit=crop" alt="Gallery image 1" />
+          <img src="/mount.JPG" alt="Gallery image 1" />
           <div className="gallery-overlay">
-            <h3>Mountain Vista</h3>
-            <p>Swiss Alps, 2024</p>
+            <h3>Mountain</h3>
+            <p>New Zealand, 2025</p>
           </div>
         </div>
         <div className="gallery-item">
-          <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=600&fit=crop" alt="Gallery image 2" />
+          <img src="/wanaka-tree.JPG" alt="Gallery image 2" />
           <div className="gallery-overlay">
-            <h3>Forest Light</h3>
-            <p>California, 2024</p>
+            <h3>The Wanaka Tree</h3>
+            <p>Wanaka, 2025</p>
           </div>
         </div>
         <div className="gallery-item">
