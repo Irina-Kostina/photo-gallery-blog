@@ -1,0 +1,33 @@
+.journal-section {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.journal-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.journal-subtitle {
+  color: #555;
+  margin-bottom: 3rem;
+}
+
+.journal-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.journal-card img {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.journal-card img:hover {
+  transform: scale(1.05);
+}

@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 export default function Journal() {
   return (
@@ -40,6 +41,11 @@ export default function Journal() {
             </p>
           </a>
         </div>
+      </div>
+      <div className="journal-button">
+        <Link to="/journal" className="read-more-btn">
+          Read Journal →
+        </Link>
       </div>
     </section>
   )
