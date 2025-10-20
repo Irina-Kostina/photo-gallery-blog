@@ -16,7 +16,7 @@ export default function Journal() {
           <a href="#" className="blog-card">
             <div className="blog-image">
               <img
-                src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=600&h=400&fit=crop"
+                src="/IMG_0950"
                 alt="Golden hour"
               />
             </div>
